@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+  <h1>
+  Myriad Crypto Bank
+  </h1>  
+</head>
+<body>
+  <form action={{url_for('afr')}} , method="post", enctype="multipart/form-data">
+    Sender:<input type="text" name="sender" value={{sender}}>
+    Receiver:<input type="text" name="receiver">
+    Amount:<input type="number" name="amount">
+  </form>
+</body>
